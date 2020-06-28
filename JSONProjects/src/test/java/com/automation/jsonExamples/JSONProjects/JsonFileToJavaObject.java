@@ -1,13 +1,14 @@
-package com.json.examples.jsonExamples;
+package com.automation.jsonExamples.JSONProjects;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
+import com.automation.jsonExamples.JSONProjects.javapojoobjects.Staff;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
-import com.json.javaObjects.Staff;
+
 
 public class JsonFileToJavaObject {
 

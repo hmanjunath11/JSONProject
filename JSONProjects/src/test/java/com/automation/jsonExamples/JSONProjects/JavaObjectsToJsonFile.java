@@ -23,9 +23,18 @@ public class JavaObjectsToJsonFile {
 		Staff staff =  createStaffObject();
 		System.out.println("Hello"+gson.toJson(staff).toString());
 		
-		
-		  try { 
+		//FOR MAC OS
+		/*  try { 
 			  FileWriter writer = new FileWriter("/Users/manjunathah/FT-Automation-workspace_Karate/jsonExamples/src/jsonSource/Newstaff.json"); 
+			writer.write(gson.toJson(staff).toString());
+			  writer.close();
+			  
+		  }*/
+		  
+		  //For Windows OS
+		  
+		  try { 
+			  FileWriter writer = new FileWriter("D:\\Manju\\Development_Workspaces\\New_WorkSpace\\JSONProjects\\src\\jsonSourceNewstaff.json"); 
 			writer.write(gson.toJson(staff).toString());
 			  writer.close();
 			  
